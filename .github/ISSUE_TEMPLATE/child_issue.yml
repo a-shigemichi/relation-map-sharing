@@ -1,0 +1,14 @@
+name: Child Issue
+description: 実装タスク単位
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: 概要
+      placeholder: どんな実装を行うか教えてください
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: 期限
